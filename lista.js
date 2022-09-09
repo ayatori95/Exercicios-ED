@@ -1,15 +1,16 @@
-var dados = [1, 2, ,]; 
-var tamAtual;
-var tamMax;
+function criarLista (e) {
+    var dados = [];
+    dados[e]
+}
+
+function adicionarElemento(elementos) {
+    criarLista()
+}
+
 
 function listaSeq() {
-    tamMax = 12
-    tamAtual = 0
-    dados[tamMax]
     var adicionar = dados.push(4); // Acrescenta um item no final da lista
     console.log(dados)
-    console.log(dados.length) // Informa o tamanho na lista
-
     if (dados.length == 0) { // Verifica se a lista está vazia, o length servindo para indicar o tamanho dela
         console.log('Lista Vazia')
     } else if (dados.length >= tamMax) { // Verifica se a lista está cheia, com o parametro tamMax indicado comparado com o tamanho dela
@@ -35,3 +36,4 @@ function listaSeq() {
 }
 
 listaSeq()
+
